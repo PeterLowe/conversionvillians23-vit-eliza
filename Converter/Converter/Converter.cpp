@@ -3,9 +3,21 @@
 
 #include <iostream>
 
-char printMenu(); //Eliza
 
-#include <iostream>
+int main()
+{
+	char userChoice;
+	userChoice = printMenu();
+
+		if (userChoice == 'A')
+		{
+			degreesToRadians();
+		}
+
+
+	return 0;
+}
+
 
 char printMenu()
 {
@@ -21,11 +33,7 @@ char printMenu()
 	return choice;
 }
 
-int main()
-{
 
-	return 0;
-}
 
 char printMenu()
 {
@@ -39,4 +47,12 @@ char printMenu()
 	std::cout << "Enter your choice: ";
 	std::cin >> choice;
 	return choice;
+}
+
+float degreesToRadians()
+{
+	char choice = ' ';
+	float radiansValue = 0;
+	radiansValue = choice * (3.14159 / 180);
+	return radiansValue;
 }
