@@ -5,7 +5,13 @@
 
 char printMenu(); //Eliza
 
-#include <iostream>
+
+int main()
+{
+
+
+	return 0;
+}
 
 char printMenu()
 {
@@ -21,11 +27,7 @@ char printMenu()
 	return choice;
 }
 
-int main()
-{
 
-	return 0;
-}
 
 char printMenu()
 {
@@ -40,3 +42,4 @@ char printMenu()
 	std::cin >> choice;
 	return choice;
 }
+
