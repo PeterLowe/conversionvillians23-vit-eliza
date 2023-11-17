@@ -3,15 +3,26 @@
 
 #include <iostream>
 
+<<<<<<< HEAD
+=======
 char printMenu();
 void radiansToDegrees();
 
+>>>>>>> c7249d20ed8742c8abc478c1f064fef2861bba43
 
 int main()
 {
 	char userChoice;
 	userChoice = printMenu();
+<<<<<<< HEAD
+
+		if (userChoice == 'A')
+		{
+			degreesToRadians();
+		}
+=======
 	float radian = 0;
+>>>>>>> c7249d20ed8742c8abc478c1f064fef2861bba43
 
 
 
@@ -31,6 +42,7 @@ int main()
 
 	return 0;
 }
+
 
 char printMenu()
 {
@@ -58,6 +70,7 @@ void radiansToDegrees()
 	float degrees = 0;
 	float radiansPI = 0;
 
+<<<<<<< HEAD
 	std::cout << "What is the radian" << std::endl;
 	std::cin >> radians;
 
@@ -67,4 +80,18 @@ void radiansToDegrees()
 	std::cout << "Radians "<<radians <<" converted into degrees : "<< std::endl;
 	std::cout << "Radians: " << radians << std::endl;
 	std::cout << "Degrees: " << radiansPI << std::endl;
+=======
+<<<<<<< HEAD
+float degreesToRadians()
+{
+	char choice = ' ';
+	float radiansValue = 0;
+	radiansValue = choice * (3.14159 / 180);
+	return radiansValue;
+=======
+	radian = radian / (DEGREES / PI);
+
+	return radian;
+>>>>>>> c7249d20ed8742c8abc478c1f064fef2861bba43
+>>>>>>> 1594113cd0abdee8762b1d29c9718cf533153818
 }

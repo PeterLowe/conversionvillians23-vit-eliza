@@ -1,3 +1,12 @@
 ﻿  Converter.cpp
+<<<<<<< HEAD
 C:\Users\C00289302\Desktop\Git 4\conversionvillians23-vit-eliza\Converter\Converter\Converter.cpp(38,15): warning C4129: 'A': unrecognized character escape sequence
   Converter.vcxproj -> C:\Users\C00289302\Desktop\Git 4\conversionvillians23-vit-eliza\Converter\x64\Debug\Converter.exe
+=======
+C:\Users\C00298335\Desktop\GitLab4\Converter\Converter\Converter.cpp(10,15): error C3861: 'printMenu': identifier not found
+C:\Users\C00298335\Desktop\GitLab4\Converter\Converter\Converter.cpp(14,4): error C3861: 'degreesToRadians': identifier not found
+C:\Users\C00298335\Desktop\GitLab4\Converter\Converter\Converter.cpp(25,15): warning C4129: 'A': unrecognized character escape sequence
+C:\Users\C00298335\Desktop\GitLab4\Converter\Converter\Converter.cpp(38,6): error C2084: function 'char printMenu(void)' already has a body
+C:\Users\C00298335\Desktop\GitLab4\Converter\Converter\Converter.cpp(22,6): message : see previous definition of 'printMenu'
+C:\Users\C00298335\Desktop\GitLab4\Converter\Converter\Converter.cpp(56,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+>>>>>>> 1594113cd0abdee8762b1d29c9718cf533153818
