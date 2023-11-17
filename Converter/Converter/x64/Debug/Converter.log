@@ -1,0 +1,3 @@
+﻿  Converter.cpp
+C:\Users\C00298335\Desktop\GitLab4\Converter\Converter\Converter.cpp(7,7): error C2601: 'printMenu': local function definitions are illegal
+C:\Users\C00298335\Desktop\GitLab4\Converter\Converter\Converter.cpp(6): message : this line contains a '{' which has not yet been matched
